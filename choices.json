@@ -1,0 +1,2710 @@
+{
+    "cables:termination_a_type": [
+        {
+            "value": "circuits.circuittermination",
+            "display_name": "circuits | circuit termination"
+        },
+        {
+            "value": "dcim.consoleport",
+            "display_name": "dcim | console port"
+        },
+        {
+            "value": "dcim.consoleserverport",
+            "display_name": "dcim | console server port"
+        },
+        {
+            "value": "dcim.frontport",
+            "display_name": "dcim | front port"
+        },
+        {
+            "value": "dcim.interface",
+            "display_name": "dcim | interface"
+        },
+        {
+            "value": "dcim.powerfeed",
+            "display_name": "dcim | power feed"
+        },
+        {
+            "value": "dcim.poweroutlet",
+            "display_name": "dcim | power outlet"
+        },
+        {
+            "value": "dcim.powerport",
+            "display_name": "dcim | power port"
+        },
+        {
+            "value": "dcim.rearport",
+            "display_name": "dcim | rear port"
+        }
+    ],
+    "cables:termination_b_type": [
+        {
+            "value": "circuits.circuittermination",
+            "display_name": "circuits | circuit termination"
+        },
+        {
+            "value": "dcim.consoleport",
+            "display_name": "dcim | console port"
+        },
+        {
+            "value": "dcim.consoleserverport",
+            "display_name": "dcim | console server port"
+        },
+        {
+            "value": "dcim.frontport",
+            "display_name": "dcim | front port"
+        },
+        {
+            "value": "dcim.interface",
+            "display_name": "dcim | interface"
+        },
+        {
+            "value": "dcim.powerfeed",
+            "display_name": "dcim | power feed"
+        },
+        {
+            "value": "dcim.poweroutlet",
+            "display_name": "dcim | power outlet"
+        },
+        {
+            "value": "dcim.powerport",
+            "display_name": "dcim | power port"
+        },
+        {
+            "value": "dcim.rearport",
+            "display_name": "dcim | rear port"
+        }
+    ],
+    "cables:type": [
+        {
+            "value": "cat3",
+            "display_name": "CAT3"
+        },
+        {
+            "value": "cat5",
+            "display_name": "CAT5"
+        },
+        {
+            "value": "cat5e",
+            "display_name": "CAT5e"
+        },
+        {
+            "value": "cat6",
+            "display_name": "CAT6"
+        },
+        {
+            "value": "cat6a",
+            "display_name": "CAT6a"
+        },
+        {
+            "value": "cat7",
+            "display_name": "CAT7"
+        },
+        {
+            "value": "dac-active",
+            "display_name": "Direct Attach Copper (Active)"
+        },
+        {
+            "value": "dac-passive",
+            "display_name": "Direct Attach Copper (Passive)"
+        },
+        {
+            "value": "mrj21-trunk",
+            "display_name": "MRJ21 Trunk"
+        },
+        {
+            "value": "coaxial",
+            "display_name": "Coaxial"
+        },
+        {
+            "value": "mmf",
+            "display_name": "Multimode Fiber"
+        },
+        {
+            "value": "mmf-om1",
+            "display_name": "Multimode Fiber (OM1)"
+        },
+        {
+            "value": "mmf-om2",
+            "display_name": "Multimode Fiber (OM2)"
+        },
+        {
+            "value": "mmf-om3",
+            "display_name": "Multimode Fiber (OM3)"
+        },
+        {
+            "value": "mmf-om4",
+            "display_name": "Multimode Fiber (OM4)"
+        },
+        {
+            "value": "smf",
+            "display_name": "Singlemode Fiber"
+        },
+        {
+            "value": "smf-os1",
+            "display_name": "Singlemode Fiber (OS1)"
+        },
+        {
+            "value": "smf-os2",
+            "display_name": "Singlemode Fiber (OS2)"
+        },
+        {
+            "value": "aoc",
+            "display_name": "Active Optical Cabling (AOC)"
+        },
+        {
+            "value": "power",
+            "display_name": "Power"
+        }
+    ],
+    "cables:status": [
+        {
+            "value": "connected",
+            "display_name": "Connected"
+        },
+        {
+            "value": "planned",
+            "display_name": "Planned"
+        },
+        {
+            "value": "decommissioning",
+            "display_name": "Decommissioning"
+        }
+    ],
+    "cables:length_unit": [
+        {
+            "value": "m",
+            "display_name": "Meters"
+        },
+        {
+            "value": "cm",
+            "display_name": "Centimeters"
+        },
+        {
+            "value": "ft",
+            "display_name": "Feet"
+        },
+        {
+            "value": "in",
+            "display_name": "Inches"
+        }
+    ],
+    "console_port_templates:type": [
+        {
+            "value": "de-9",
+            "display_name": "DE-9"
+        },
+        {
+            "value": "db-25",
+            "display_name": "DB-25"
+        },
+        {
+            "value": "rj-11",
+            "display_name": "RJ-11"
+        },
+        {
+            "value": "rj-12",
+            "display_name": "RJ-12"
+        },
+        {
+            "value": "rj-45",
+            "display_name": "RJ-45"
+        },
+        {
+            "value": "usb-a",
+            "display_name": "USB Type A"
+        },
+        {
+            "value": "usb-b",
+            "display_name": "USB Type B"
+        },
+        {
+            "value": "usb-c",
+            "display_name": "USB Type C"
+        },
+        {
+            "value": "usb-mini-a",
+            "display_name": "USB Mini A"
+        },
+        {
+            "value": "usb-mini-b",
+            "display_name": "USB Mini B"
+        },
+        {
+            "value": "usb-micro-a",
+            "display_name": "USB Micro A"
+        },
+        {
+            "value": "usb-micro-b",
+            "display_name": "USB Micro B"
+        },
+        {
+            "value": "other",
+            "display_name": "Other"
+        }
+    ],
+    "console_ports:type": [
+        {
+            "value": "de-9",
+            "display_name": "DE-9"
+        },
+        {
+            "value": "db-25",
+            "display_name": "DB-25"
+        },
+        {
+            "value": "rj-11",
+            "display_name": "RJ-11"
+        },
+        {
+            "value": "rj-12",
+            "display_name": "RJ-12"
+        },
+        {
+            "value": "rj-45",
+            "display_name": "RJ-45"
+        },
+        {
+            "value": "usb-a",
+            "display_name": "USB Type A"
+        },
+        {
+            "value": "usb-b",
+            "display_name": "USB Type B"
+        },
+        {
+            "value": "usb-c",
+            "display_name": "USB Type C"
+        },
+        {
+            "value": "usb-mini-a",
+            "display_name": "USB Mini A"
+        },
+        {
+            "value": "usb-mini-b",
+            "display_name": "USB Mini B"
+        },
+        {
+            "value": "usb-micro-a",
+            "display_name": "USB Micro A"
+        },
+        {
+            "value": "usb-micro-b",
+            "display_name": "USB Micro B"
+        },
+        {
+            "value": "other",
+            "display_name": "Other"
+        }
+    ],
+    "console_server_port_templates:type": [
+        {
+            "value": "de-9",
+            "display_name": "DE-9"
+        },
+        {
+            "value": "db-25",
+            "display_name": "DB-25"
+        },
+        {
+            "value": "rj-11",
+            "display_name": "RJ-11"
+        },
+        {
+            "value": "rj-12",
+            "display_name": "RJ-12"
+        },
+        {
+            "value": "rj-45",
+            "display_name": "RJ-45"
+        },
+        {
+            "value": "usb-a",
+            "display_name": "USB Type A"
+        },
+        {
+            "value": "usb-b",
+            "display_name": "USB Type B"
+        },
+        {
+            "value": "usb-c",
+            "display_name": "USB Type C"
+        },
+        {
+            "value": "usb-mini-a",
+            "display_name": "USB Mini A"
+        },
+        {
+            "value": "usb-mini-b",
+            "display_name": "USB Mini B"
+        },
+        {
+            "value": "usb-micro-a",
+            "display_name": "USB Micro A"
+        },
+        {
+            "value": "usb-micro-b",
+            "display_name": "USB Micro B"
+        },
+        {
+            "value": "other",
+            "display_name": "Other"
+        }
+    ],
+    "console_server_ports:type": [
+        {
+            "value": "de-9",
+            "display_name": "DE-9"
+        },
+        {
+            "value": "db-25",
+            "display_name": "DB-25"
+        },
+        {
+            "value": "rj-11",
+            "display_name": "RJ-11"
+        },
+        {
+            "value": "rj-12",
+            "display_name": "RJ-12"
+        },
+        {
+            "value": "rj-45",
+            "display_name": "RJ-45"
+        },
+        {
+            "value": "usb-a",
+            "display_name": "USB Type A"
+        },
+        {
+            "value": "usb-b",
+            "display_name": "USB Type B"
+        },
+        {
+            "value": "usb-c",
+            "display_name": "USB Type C"
+        },
+        {
+            "value": "usb-mini-a",
+            "display_name": "USB Mini A"
+        },
+        {
+            "value": "usb-mini-b",
+            "display_name": "USB Mini B"
+        },
+        {
+            "value": "usb-micro-a",
+            "display_name": "USB Micro A"
+        },
+        {
+            "value": "usb-micro-b",
+            "display_name": "USB Micro B"
+        },
+        {
+            "value": "other",
+            "display_name": "Other"
+        }
+    ],
+    "device_types:subdevice_role": [
+        {
+            "value": "parent",
+            "display_name": "Parent"
+        },
+        {
+            "value": "child",
+            "display_name": "Child"
+        }
+    ],
+    "devices:face": [
+        {
+            "value": "front",
+            "display_name": "Front"
+        },
+        {
+            "value": "rear",
+            "display_name": "Rear"
+        }
+    ],
+    "devices:status": [
+        {
+            "value": "offline",
+            "display_name": "Offline"
+        },
+        {
+            "value": "active",
+            "display_name": "Active"
+        },
+        {
+            "value": "planned",
+            "display_name": "Planned"
+        },
+        {
+            "value": "staged",
+            "display_name": "Staged"
+        },
+        {
+            "value": "failed",
+            "display_name": "Failed"
+        },
+        {
+            "value": "inventory",
+            "display_name": "Inventory"
+        },
+        {
+            "value": "decommissioning",
+            "display_name": "Decommissioning"
+        }
+    ],
+    "front_port_templates:type": [
+        {
+            "value": "8p8c",
+            "display_name": "8P8C"
+        },
+        {
+            "value": "8p6c",
+            "display_name": "8P6C"
+        },
+        {
+            "value": "8p4c",
+            "display_name": "8P4C"
+        },
+        {
+            "value": "8p2c",
+            "display_name": "8P2C"
+        },
+        {
+            "value": "110-punch",
+            "display_name": "110 Punch"
+        },
+        {
+            "value": "bnc",
+            "display_name": "BNC"
+        },
+        {
+            "value": "mrj21",
+            "display_name": "MRJ21"
+        },
+        {
+            "value": "fc",
+            "display_name": "FC"
+        },
+        {
+            "value": "lc",
+            "display_name": "LC"
+        },
+        {
+            "value": "lc-apc",
+            "display_name": "LC/APC"
+        },
+        {
+            "value": "lsh",
+            "display_name": "LSH"
+        },
+        {
+            "value": "lsh-apc",
+            "display_name": "LSH/APC"
+        },
+        {
+            "value": "mpo",
+            "display_name": "MPO"
+        },
+        {
+            "value": "mtrj",
+            "display_name": "MTRJ"
+        },
+        {
+            "value": "sc",
+            "display_name": "SC"
+        },
+        {
+            "value": "sc-apc",
+            "display_name": "SC/APC"
+        },
+        {
+            "value": "st",
+            "display_name": "ST"
+        }
+    ],
+    "front_ports:type": [
+        {
+            "value": "8p8c",
+            "display_name": "8P8C"
+        },
+        {
+            "value": "8p6c",
+            "display_name": "8P6C"
+        },
+        {
+            "value": "8p4c",
+            "display_name": "8P4C"
+        },
+        {
+            "value": "8p2c",
+            "display_name": "8P2C"
+        },
+        {
+            "value": "110-punch",
+            "display_name": "110 Punch"
+        },
+        {
+            "value": "bnc",
+            "display_name": "BNC"
+        },
+        {
+            "value": "mrj21",
+            "display_name": "MRJ21"
+        },
+        {
+            "value": "fc",
+            "display_name": "FC"
+        },
+        {
+            "value": "lc",
+            "display_name": "LC"
+        },
+        {
+            "value": "lc-apc",
+            "display_name": "LC/APC"
+        },
+        {
+            "value": "lsh",
+            "display_name": "LSH"
+        },
+        {
+            "value": "lsh-apc",
+            "display_name": "LSH/APC"
+        },
+        {
+            "value": "mpo",
+            "display_name": "MPO"
+        },
+        {
+            "value": "mtrj",
+            "display_name": "MTRJ"
+        },
+        {
+            "value": "sc",
+            "display_name": "SC"
+        },
+        {
+            "value": "sc-apc",
+            "display_name": "SC/APC"
+        },
+        {
+            "value": "st",
+            "display_name": "ST"
+        }
+    ],
+    "interface_templates:type": [
+        {
+            "value": "virtual",
+            "display_name": "Virtual"
+        },
+        {
+            "value": "lag",
+            "display_name": "Link Aggregation Group (LAG)"
+        },
+        {
+            "value": "100base-tx",
+            "display_name": "100BASE-TX (10/100ME)"
+        },
+        {
+            "value": "1000base-t",
+            "display_name": "1000BASE-T (1GE)"
+        },
+        {
+            "value": "2.5gbase-t",
+            "display_name": "2.5GBASE-T (2.5GE)"
+        },
+        {
+            "value": "5gbase-t",
+            "display_name": "5GBASE-T (5GE)"
+        },
+        {
+            "value": "10gbase-t",
+            "display_name": "10GBASE-T (10GE)"
+        },
+        {
+            "value": "10gbase-cx4",
+            "display_name": "10GBASE-CX4 (10GE)"
+        },
+        {
+            "value": "1000base-x-gbic",
+            "display_name": "GBIC (1GE)"
+        },
+        {
+            "value": "1000base-x-sfp",
+            "display_name": "SFP (1GE)"
+        },
+        {
+            "value": "10gbase-x-sfpp",
+            "display_name": "SFP+ (10GE)"
+        },
+        {
+            "value": "10gbase-x-xfp",
+            "display_name": "XFP (10GE)"
+        },
+        {
+            "value": "10gbase-x-xenpak",
+            "display_name": "XENPAK (10GE)"
+        },
+        {
+            "value": "10gbase-x-x2",
+            "display_name": "X2 (10GE)"
+        },
+        {
+            "value": "25gbase-x-sfp28",
+            "display_name": "SFP28 (25GE)"
+        },
+        {
+            "value": "40gbase-x-qsfpp",
+            "display_name": "QSFP+ (40GE)"
+        },
+        {
+            "value": "50gbase-x-sfp28",
+            "display_name": "QSFP28 (50GE)"
+        },
+        {
+            "value": "100gbase-x-cfp",
+            "display_name": "CFP (100GE)"
+        },
+        {
+            "value": "100gbase-x-cfp2",
+            "display_name": "CFP2 (100GE)"
+        },
+        {
+            "value": "200gbase-x-cfp2",
+            "display_name": "CFP2 (200GE)"
+        },
+        {
+            "value": "100gbase-x-cfp4",
+            "display_name": "CFP4 (100GE)"
+        },
+        {
+            "value": "100gbase-x-cpak",
+            "display_name": "Cisco CPAK (100GE)"
+        },
+        {
+            "value": "100gbase-x-qsfp28",
+            "display_name": "QSFP28 (100GE)"
+        },
+        {
+            "value": "200gbase-x-qsfp56",
+            "display_name": "QSFP56 (200GE)"
+        },
+        {
+            "value": "400gbase-x-qsfpdd",
+            "display_name": "QSFP-DD (400GE)"
+        },
+        {
+            "value": "400gbase-x-osfp",
+            "display_name": "OSFP (400GE)"
+        },
+        {
+            "value": "ieee802.11a",
+            "display_name": "IEEE 802.11a"
+        },
+        {
+            "value": "ieee802.11g",
+            "display_name": "IEEE 802.11b/g"
+        },
+        {
+            "value": "ieee802.11n",
+            "display_name": "IEEE 802.11n"
+        },
+        {
+            "value": "ieee802.11ac",
+            "display_name": "IEEE 802.11ac"
+        },
+        {
+            "value": "ieee802.11ad",
+            "display_name": "IEEE 802.11ad"
+        },
+        {
+            "value": "ieee802.11ax",
+            "display_name": "IEEE 802.11ax"
+        },
+        {
+            "value": "gsm",
+            "display_name": "GSM"
+        },
+        {
+            "value": "cdma",
+            "display_name": "CDMA"
+        },
+        {
+            "value": "lte",
+            "display_name": "LTE"
+        },
+        {
+            "value": "sonet-oc3",
+            "display_name": "OC-3/STM-1"
+        },
+        {
+            "value": "sonet-oc12",
+            "display_name": "OC-12/STM-4"
+        },
+        {
+            "value": "sonet-oc48",
+            "display_name": "OC-48/STM-16"
+        },
+        {
+            "value": "sonet-oc192",
+            "display_name": "OC-192/STM-64"
+        },
+        {
+            "value": "sonet-oc768",
+            "display_name": "OC-768/STM-256"
+        },
+        {
+            "value": "sonet-oc1920",
+            "display_name": "OC-1920/STM-640"
+        },
+        {
+            "value": "sonet-oc3840",
+            "display_name": "OC-3840/STM-1234"
+        },
+        {
+            "value": "1gfc-sfp",
+            "display_name": "SFP (1GFC)"
+        },
+        {
+            "value": "2gfc-sfp",
+            "display_name": "SFP (2GFC)"
+        },
+        {
+            "value": "4gfc-sfp",
+            "display_name": "SFP (4GFC)"
+        },
+        {
+            "value": "8gfc-sfpp",
+            "display_name": "SFP+ (8GFC)"
+        },
+        {
+            "value": "16gfc-sfpp",
+            "display_name": "SFP+ (16GFC)"
+        },
+        {
+            "value": "32gfc-sfp28",
+            "display_name": "SFP28 (32GFC)"
+        },
+        {
+            "value": "128gfc-sfp28",
+            "display_name": "QSFP28 (128GFC)"
+        },
+        {
+            "value": "infiniband-sdr",
+            "display_name": "SDR (2 Gbps)"
+        },
+        {
+            "value": "infiniband-ddr",
+            "display_name": "DDR (4 Gbps)"
+        },
+        {
+            "value": "infiniband-qdr",
+            "display_name": "QDR (8 Gbps)"
+        },
+        {
+            "value": "infiniband-fdr10",
+            "display_name": "FDR10 (10 Gbps)"
+        },
+        {
+            "value": "infiniband-fdr",
+            "display_name": "FDR (13.5 Gbps)"
+        },
+        {
+            "value": "infiniband-edr",
+            "display_name": "EDR (25 Gbps)"
+        },
+        {
+            "value": "infiniband-hdr",
+            "display_name": "HDR (50 Gbps)"
+        },
+        {
+            "value": "infiniband-ndr",
+            "display_name": "NDR (100 Gbps)"
+        },
+        {
+            "value": "infiniband-xdr",
+            "display_name": "XDR (250 Gbps)"
+        },
+        {
+            "value": "t1",
+            "display_name": "T1 (1.544 Mbps)"
+        },
+        {
+            "value": "e1",
+            "display_name": "E1 (2.048 Mbps)"
+        },
+        {
+            "value": "t3",
+            "display_name": "T3 (45 Mbps)"
+        },
+        {
+            "value": "e3",
+            "display_name": "E3 (34 Mbps)"
+        },
+        {
+            "value": "cisco-stackwise",
+            "display_name": "Cisco StackWise"
+        },
+        {
+            "value": "cisco-stackwise-plus",
+            "display_name": "Cisco StackWise Plus"
+        },
+        {
+            "value": "cisco-flexstack",
+            "display_name": "Cisco FlexStack"
+        },
+        {
+            "value": "cisco-flexstack-plus",
+            "display_name": "Cisco FlexStack Plus"
+        },
+        {
+            "value": "juniper-vcp",
+            "display_name": "Juniper VCP"
+        },
+        {
+            "value": "extreme-summitstack",
+            "display_name": "Extreme SummitStack"
+        },
+        {
+            "value": "extreme-summitstack-128",
+            "display_name": "Extreme SummitStack-128"
+        },
+        {
+            "value": "extreme-summitstack-256",
+            "display_name": "Extreme SummitStack-256"
+        },
+        {
+            "value": "extreme-summitstack-512",
+            "display_name": "Extreme SummitStack-512"
+        },
+        {
+            "value": "other",
+            "display_name": "Other"
+        }
+    ],
+    "interfaces:type": [
+        {
+            "value": "virtual",
+            "display_name": "Virtual"
+        },
+        {
+            "value": "lag",
+            "display_name": "Link Aggregation Group (LAG)"
+        },
+        {
+            "value": "100base-tx",
+            "display_name": "100BASE-TX (10/100ME)"
+        },
+        {
+            "value": "1000base-t",
+            "display_name": "1000BASE-T (1GE)"
+        },
+        {
+            "value": "2.5gbase-t",
+            "display_name": "2.5GBASE-T (2.5GE)"
+        },
+        {
+            "value": "5gbase-t",
+            "display_name": "5GBASE-T (5GE)"
+        },
+        {
+            "value": "10gbase-t",
+            "display_name": "10GBASE-T (10GE)"
+        },
+        {
+            "value": "10gbase-cx4",
+            "display_name": "10GBASE-CX4 (10GE)"
+        },
+        {
+            "value": "1000base-x-gbic",
+            "display_name": "GBIC (1GE)"
+        },
+        {
+            "value": "1000base-x-sfp",
+            "display_name": "SFP (1GE)"
+        },
+        {
+            "value": "10gbase-x-sfpp",
+            "display_name": "SFP+ (10GE)"
+        },
+        {
+            "value": "10gbase-x-xfp",
+            "display_name": "XFP (10GE)"
+        },
+        {
+            "value": "10gbase-x-xenpak",
+            "display_name": "XENPAK (10GE)"
+        },
+        {
+            "value": "10gbase-x-x2",
+            "display_name": "X2 (10GE)"
+        },
+        {
+            "value": "25gbase-x-sfp28",
+            "display_name": "SFP28 (25GE)"
+        },
+        {
+            "value": "40gbase-x-qsfpp",
+            "display_name": "QSFP+ (40GE)"
+        },
+        {
+            "value": "50gbase-x-sfp28",
+            "display_name": "QSFP28 (50GE)"
+        },
+        {
+            "value": "100gbase-x-cfp",
+            "display_name": "CFP (100GE)"
+        },
+        {
+            "value": "100gbase-x-cfp2",
+            "display_name": "CFP2 (100GE)"
+        },
+        {
+            "value": "200gbase-x-cfp2",
+            "display_name": "CFP2 (200GE)"
+        },
+        {
+            "value": "100gbase-x-cfp4",
+            "display_name": "CFP4 (100GE)"
+        },
+        {
+            "value": "100gbase-x-cpak",
+            "display_name": "Cisco CPAK (100GE)"
+        },
+        {
+            "value": "100gbase-x-qsfp28",
+            "display_name": "QSFP28 (100GE)"
+        },
+        {
+            "value": "200gbase-x-qsfp56",
+            "display_name": "QSFP56 (200GE)"
+        },
+        {
+            "value": "400gbase-x-qsfpdd",
+            "display_name": "QSFP-DD (400GE)"
+        },
+        {
+            "value": "400gbase-x-osfp",
+            "display_name": "OSFP (400GE)"
+        },
+        {
+            "value": "ieee802.11a",
+            "display_name": "IEEE 802.11a"
+        },
+        {
+            "value": "ieee802.11g",
+            "display_name": "IEEE 802.11b/g"
+        },
+        {
+            "value": "ieee802.11n",
+            "display_name": "IEEE 802.11n"
+        },
+        {
+            "value": "ieee802.11ac",
+            "display_name": "IEEE 802.11ac"
+        },
+        {
+            "value": "ieee802.11ad",
+            "display_name": "IEEE 802.11ad"
+        },
+        {
+            "value": "ieee802.11ax",
+            "display_name": "IEEE 802.11ax"
+        },
+        {
+            "value": "gsm",
+            "display_name": "GSM"
+        },
+        {
+            "value": "cdma",
+            "display_name": "CDMA"
+        },
+        {
+            "value": "lte",
+            "display_name": "LTE"
+        },
+        {
+            "value": "sonet-oc3",
+            "display_name": "OC-3/STM-1"
+        },
+        {
+            "value": "sonet-oc12",
+            "display_name": "OC-12/STM-4"
+        },
+        {
+            "value": "sonet-oc48",
+            "display_name": "OC-48/STM-16"
+        },
+        {
+            "value": "sonet-oc192",
+            "display_name": "OC-192/STM-64"
+        },
+        {
+            "value": "sonet-oc768",
+            "display_name": "OC-768/STM-256"
+        },
+        {
+            "value": "sonet-oc1920",
+            "display_name": "OC-1920/STM-640"
+        },
+        {
+            "value": "sonet-oc3840",
+            "display_name": "OC-3840/STM-1234"
+        },
+        {
+            "value": "1gfc-sfp",
+            "display_name": "SFP (1GFC)"
+        },
+        {
+            "value": "2gfc-sfp",
+            "display_name": "SFP (2GFC)"
+        },
+        {
+            "value": "4gfc-sfp",
+            "display_name": "SFP (4GFC)"
+        },
+        {
+            "value": "8gfc-sfpp",
+            "display_name": "SFP+ (8GFC)"
+        },
+        {
+            "value": "16gfc-sfpp",
+            "display_name": "SFP+ (16GFC)"
+        },
+        {
+            "value": "32gfc-sfp28",
+            "display_name": "SFP28 (32GFC)"
+        },
+        {
+            "value": "128gfc-sfp28",
+            "display_name": "QSFP28 (128GFC)"
+        },
+        {
+            "value": "infiniband-sdr",
+            "display_name": "SDR (2 Gbps)"
+        },
+        {
+            "value": "infiniband-ddr",
+            "display_name": "DDR (4 Gbps)"
+        },
+        {
+            "value": "infiniband-qdr",
+            "display_name": "QDR (8 Gbps)"
+        },
+        {
+            "value": "infiniband-fdr10",
+            "display_name": "FDR10 (10 Gbps)"
+        },
+        {
+            "value": "infiniband-fdr",
+            "display_name": "FDR (13.5 Gbps)"
+        },
+        {
+            "value": "infiniband-edr",
+            "display_name": "EDR (25 Gbps)"
+        },
+        {
+            "value": "infiniband-hdr",
+            "display_name": "HDR (50 Gbps)"
+        },
+        {
+            "value": "infiniband-ndr",
+            "display_name": "NDR (100 Gbps)"
+        },
+        {
+            "value": "infiniband-xdr",
+            "display_name": "XDR (250 Gbps)"
+        },
+        {
+            "value": "t1",
+            "display_name": "T1 (1.544 Mbps)"
+        },
+        {
+            "value": "e1",
+            "display_name": "E1 (2.048 Mbps)"
+        },
+        {
+            "value": "t3",
+            "display_name": "T3 (45 Mbps)"
+        },
+        {
+            "value": "e3",
+            "display_name": "E3 (34 Mbps)"
+        },
+        {
+            "value": "cisco-stackwise",
+            "display_name": "Cisco StackWise"
+        },
+        {
+            "value": "cisco-stackwise-plus",
+            "display_name": "Cisco StackWise Plus"
+        },
+        {
+            "value": "cisco-flexstack",
+            "display_name": "Cisco FlexStack"
+        },
+        {
+            "value": "cisco-flexstack-plus",
+            "display_name": "Cisco FlexStack Plus"
+        },
+        {
+            "value": "juniper-vcp",
+            "display_name": "Juniper VCP"
+        },
+        {
+            "value": "extreme-summitstack",
+            "display_name": "Extreme SummitStack"
+        },
+        {
+            "value": "extreme-summitstack-128",
+            "display_name": "Extreme SummitStack-128"
+        },
+        {
+            "value": "extreme-summitstack-256",
+            "display_name": "Extreme SummitStack-256"
+        },
+        {
+            "value": "extreme-summitstack-512",
+            "display_name": "Extreme SummitStack-512"
+        },
+        {
+            "value": "other",
+            "display_name": "Other"
+        }
+    ],
+    "interfaces:mode": [
+        {
+            "value": "access",
+            "display_name": "Access"
+        },
+        {
+            "value": "tagged",
+            "display_name": "Tagged"
+        },
+        {
+            "value": "tagged-all",
+            "display_name": "Tagged (All)"
+        }
+    ],
+    "power_feeds:status": [
+        {
+            "value": "offline",
+            "display_name": "Offline"
+        },
+        {
+            "value": "active",
+            "display_name": "Active"
+        },
+        {
+            "value": "planned",
+            "display_name": "Planned"
+        },
+        {
+            "value": "failed",
+            "display_name": "Failed"
+        }
+    ],
+    "power_feeds:type": [
+        {
+            "value": "primary",
+            "display_name": "Primary"
+        },
+        {
+            "value": "redundant",
+            "display_name": "Redundant"
+        }
+    ],
+    "power_feeds:supply": [
+        {
+            "value": "ac",
+            "display_name": "AC"
+        },
+        {
+            "value": "dc",
+            "display_name": "DC"
+        }
+    ],
+    "power_feeds:phase": [
+        {
+            "value": "single-phase",
+            "display_name": "Single phase"
+        },
+        {
+            "value": "three-phase",
+            "display_name": "Three-phase"
+        }
+    ],
+    "power_outlet_templates:type": [
+        {
+            "value": "iec-60320-c5",
+            "display_name": "C5"
+        },
+        {
+            "value": "iec-60320-c7",
+            "display_name": "C7"
+        },
+        {
+            "value": "iec-60320-c13",
+            "display_name": "C13"
+        },
+        {
+            "value": "iec-60320-c15",
+            "display_name": "C15"
+        },
+        {
+            "value": "iec-60320-c19",
+            "display_name": "C19"
+        },
+        {
+            "value": "iec-60309-p-n-e-4h",
+            "display_name": "P+N+E 4H"
+        },
+        {
+            "value": "iec-60309-p-n-e-6h",
+            "display_name": "P+N+E 6H"
+        },
+        {
+            "value": "iec-60309-p-n-e-9h",
+            "display_name": "P+N+E 9H"
+        },
+        {
+            "value": "iec-60309-2p-e-4h",
+            "display_name": "2P+E 4H"
+        },
+        {
+            "value": "iec-60309-2p-e-6h",
+            "display_name": "2P+E 6H"
+        },
+        {
+            "value": "iec-60309-2p-e-9h",
+            "display_name": "2P+E 9H"
+        },
+        {
+            "value": "iec-60309-3p-e-4h",
+            "display_name": "3P+E 4H"
+        },
+        {
+            "value": "iec-60309-3p-e-6h",
+            "display_name": "3P+E 6H"
+        },
+        {
+            "value": "iec-60309-3p-e-9h",
+            "display_name": "3P+E 9H"
+        },
+        {
+            "value": "iec-60309-3p-n-e-4h",
+            "display_name": "3P+N+E 4H"
+        },
+        {
+            "value": "iec-60309-3p-n-e-6h",
+            "display_name": "3P+N+E 6H"
+        },
+        {
+            "value": "iec-60309-3p-n-e-9h",
+            "display_name": "3P+N+E 9H"
+        },
+        {
+            "value": "nema-1-15r",
+            "display_name": "NEMA 1-15R"
+        },
+        {
+            "value": "nema-5-15r",
+            "display_name": "NEMA 5-15R"
+        },
+        {
+            "value": "nema-5-20r",
+            "display_name": "NEMA 5-20R"
+        },
+        {
+            "value": "nema-5-30r",
+            "display_name": "NEMA 5-30R"
+        },
+        {
+            "value": "nema-5-50r",
+            "display_name": "NEMA 5-50R"
+        },
+        {
+            "value": "nema-6-15r",
+            "display_name": "NEMA 6-15R"
+        },
+        {
+            "value": "nema-6-20r",
+            "display_name": "NEMA 6-20R"
+        },
+        {
+            "value": "nema-6-30r",
+            "display_name": "NEMA 6-30R"
+        },
+        {
+            "value": "nema-6-50r",
+            "display_name": "NEMA 6-50R"
+        },
+        {
+            "value": "nema-10-30r",
+            "display_name": "NEMA 10-30R"
+        },
+        {
+            "value": "nema-10-50r",
+            "display_name": "NEMA 10-50R"
+        },
+        {
+            "value": "nema-14-20r",
+            "display_name": "NEMA 14-20R"
+        },
+        {
+            "value": "nema-14-30r",
+            "display_name": "NEMA 14-30R"
+        },
+        {
+            "value": "nema-14-50r",
+            "display_name": "NEMA 14-50R"
+        },
+        {
+            "value": "nema-14-60r",
+            "display_name": "NEMA 14-60R"
+        },
+        {
+            "value": "nema-15-15r",
+            "display_name": "NEMA 15-15R"
+        },
+        {
+            "value": "nema-15-20r",
+            "display_name": "NEMA 15-20R"
+        },
+        {
+            "value": "nema-15-30r",
+            "display_name": "NEMA 15-30R"
+        },
+        {
+            "value": "nema-15-50r",
+            "display_name": "NEMA 15-50R"
+        },
+        {
+            "value": "nema-15-60r",
+            "display_name": "NEMA 15-60R"
+        },
+        {
+            "value": "nema-l1-15r",
+            "display_name": "NEMA L1-15R"
+        },
+        {
+            "value": "nema-l5-15r",
+            "display_name": "NEMA L5-15R"
+        },
+        {
+            "value": "nema-l5-20r",
+            "display_name": "NEMA L5-20R"
+        },
+        {
+            "value": "nema-l5-30r",
+            "display_name": "NEMA L5-30R"
+        },
+        {
+            "value": "nema-l5-50r",
+            "display_name": "NEMA L5-50R"
+        },
+        {
+            "value": "nema-l6-15r",
+            "display_name": "NEMA L6-15R"
+        },
+        {
+            "value": "nema-l6-20r",
+            "display_name": "NEMA L6-20R"
+        },
+        {
+            "value": "nema-l6-30r",
+            "display_name": "NEMA L6-30R"
+        },
+        {
+            "value": "nema-l6-50r",
+            "display_name": "NEMA L6-50R"
+        },
+        {
+            "value": "nema-l10-30r",
+            "display_name": "NEMA L10-30R"
+        },
+        {
+            "value": "nema-l14-20r",
+            "display_name": "NEMA L14-20R"
+        },
+        {
+            "value": "nema-l14-30r",
+            "display_name": "NEMA L14-30R"
+        },
+        {
+            "value": "nema-l14-50r",
+            "display_name": "NEMA L14-50R"
+        },
+        {
+            "value": "nema-l14-60r",
+            "display_name": "NEMA L14-60R"
+        },
+        {
+            "value": "nema-l15-20r",
+            "display_name": "NEMA L15-20R"
+        },
+        {
+            "value": "nema-l15-30r",
+            "display_name": "NEMA L15-30R"
+        },
+        {
+            "value": "nema-l15-50r",
+            "display_name": "NEMA L15-50R"
+        },
+        {
+            "value": "nema-l15-60r",
+            "display_name": "NEMA L15-60R"
+        },
+        {
+            "value": "nema-l21-20r",
+            "display_name": "NEMA L21-20R"
+        },
+        {
+            "value": "nema-l21-30r",
+            "display_name": "NEMA L21-30R"
+        },
+        {
+            "value": "CS6360C",
+            "display_name": "CS6360C"
+        },
+        {
+            "value": "CS6364C",
+            "display_name": "CS6364C"
+        },
+        {
+            "value": "CS8164C",
+            "display_name": "CS8164C"
+        },
+        {
+            "value": "CS8264C",
+            "display_name": "CS8264C"
+        },
+        {
+            "value": "CS8364C",
+            "display_name": "CS8364C"
+        },
+        {
+            "value": "CS8464C",
+            "display_name": "CS8464C"
+        },
+        {
+            "value": "ita-e",
+            "display_name": "ITA Type E (CEE7/5)"
+        },
+        {
+            "value": "ita-f",
+            "display_name": "ITA Type F (CEE7/3)"
+        },
+        {
+            "value": "ita-g",
+            "display_name": "ITA Type G (BS 1363)"
+        },
+        {
+            "value": "ita-h",
+            "display_name": "ITA Type H"
+        },
+        {
+            "value": "ita-i",
+            "display_name": "ITA Type I"
+        },
+        {
+            "value": "ita-j",
+            "display_name": "ITA Type J"
+        },
+        {
+            "value": "ita-k",
+            "display_name": "ITA Type K"
+        },
+        {
+            "value": "ita-l",
+            "display_name": "ITA Type L (CEI 23-50)"
+        },
+        {
+            "value": "ita-m",
+            "display_name": "ITA Type M (BS 546)"
+        },
+        {
+            "value": "ita-n",
+            "display_name": "ITA Type N"
+        },
+        {
+            "value": "ita-o",
+            "display_name": "ITA Type O"
+        },
+        {
+            "value": "hdot-cx",
+            "display_name": "HDOT Cx"
+        }
+    ],
+    "power_outlet_templates:feed_leg": [
+        {
+            "value": "A",
+            "display_name": "A"
+        },
+        {
+            "value": "B",
+            "display_name": "B"
+        },
+        {
+            "value": "C",
+            "display_name": "C"
+        }
+    ],
+    "power_outlets:type": [
+        {
+            "value": "iec-60320-c5",
+            "display_name": "C5"
+        },
+        {
+            "value": "iec-60320-c7",
+            "display_name": "C7"
+        },
+        {
+            "value": "iec-60320-c13",
+            "display_name": "C13"
+        },
+        {
+            "value": "iec-60320-c15",
+            "display_name": "C15"
+        },
+        {
+            "value": "iec-60320-c19",
+            "display_name": "C19"
+        },
+        {
+            "value": "iec-60309-p-n-e-4h",
+            "display_name": "P+N+E 4H"
+        },
+        {
+            "value": "iec-60309-p-n-e-6h",
+            "display_name": "P+N+E 6H"
+        },
+        {
+            "value": "iec-60309-p-n-e-9h",
+            "display_name": "P+N+E 9H"
+        },
+        {
+            "value": "iec-60309-2p-e-4h",
+            "display_name": "2P+E 4H"
+        },
+        {
+            "value": "iec-60309-2p-e-6h",
+            "display_name": "2P+E 6H"
+        },
+        {
+            "value": "iec-60309-2p-e-9h",
+            "display_name": "2P+E 9H"
+        },
+        {
+            "value": "iec-60309-3p-e-4h",
+            "display_name": "3P+E 4H"
+        },
+        {
+            "value": "iec-60309-3p-e-6h",
+            "display_name": "3P+E 6H"
+        },
+        {
+            "value": "iec-60309-3p-e-9h",
+            "display_name": "3P+E 9H"
+        },
+        {
+            "value": "iec-60309-3p-n-e-4h",
+            "display_name": "3P+N+E 4H"
+        },
+        {
+            "value": "iec-60309-3p-n-e-6h",
+            "display_name": "3P+N+E 6H"
+        },
+        {
+            "value": "iec-60309-3p-n-e-9h",
+            "display_name": "3P+N+E 9H"
+        },
+        {
+            "value": "nema-1-15r",
+            "display_name": "NEMA 1-15R"
+        },
+        {
+            "value": "nema-5-15r",
+            "display_name": "NEMA 5-15R"
+        },
+        {
+            "value": "nema-5-20r",
+            "display_name": "NEMA 5-20R"
+        },
+        {
+            "value": "nema-5-30r",
+            "display_name": "NEMA 5-30R"
+        },
+        {
+            "value": "nema-5-50r",
+            "display_name": "NEMA 5-50R"
+        },
+        {
+            "value": "nema-6-15r",
+            "display_name": "NEMA 6-15R"
+        },
+        {
+            "value": "nema-6-20r",
+            "display_name": "NEMA 6-20R"
+        },
+        {
+            "value": "nema-6-30r",
+            "display_name": "NEMA 6-30R"
+        },
+        {
+            "value": "nema-6-50r",
+            "display_name": "NEMA 6-50R"
+        },
+        {
+            "value": "nema-10-30r",
+            "display_name": "NEMA 10-30R"
+        },
+        {
+            "value": "nema-10-50r",
+            "display_name": "NEMA 10-50R"
+        },
+        {
+            "value": "nema-14-20r",
+            "display_name": "NEMA 14-20R"
+        },
+        {
+            "value": "nema-14-30r",
+            "display_name": "NEMA 14-30R"
+        },
+        {
+            "value": "nema-14-50r",
+            "display_name": "NEMA 14-50R"
+        },
+        {
+            "value": "nema-14-60r",
+            "display_name": "NEMA 14-60R"
+        },
+        {
+            "value": "nema-15-15r",
+            "display_name": "NEMA 15-15R"
+        },
+        {
+            "value": "nema-15-20r",
+            "display_name": "NEMA 15-20R"
+        },
+        {
+            "value": "nema-15-30r",
+            "display_name": "NEMA 15-30R"
+        },
+        {
+            "value": "nema-15-50r",
+            "display_name": "NEMA 15-50R"
+        },
+        {
+            "value": "nema-15-60r",
+            "display_name": "NEMA 15-60R"
+        },
+        {
+            "value": "nema-l1-15r",
+            "display_name": "NEMA L1-15R"
+        },
+        {
+            "value": "nema-l5-15r",
+            "display_name": "NEMA L5-15R"
+        },
+        {
+            "value": "nema-l5-20r",
+            "display_name": "NEMA L5-20R"
+        },
+        {
+            "value": "nema-l5-30r",
+            "display_name": "NEMA L5-30R"
+        },
+        {
+            "value": "nema-l5-50r",
+            "display_name": "NEMA L5-50R"
+        },
+        {
+            "value": "nema-l6-15r",
+            "display_name": "NEMA L6-15R"
+        },
+        {
+            "value": "nema-l6-20r",
+            "display_name": "NEMA L6-20R"
+        },
+        {
+            "value": "nema-l6-30r",
+            "display_name": "NEMA L6-30R"
+        },
+        {
+            "value": "nema-l6-50r",
+            "display_name": "NEMA L6-50R"
+        },
+        {
+            "value": "nema-l10-30r",
+            "display_name": "NEMA L10-30R"
+        },
+        {
+            "value": "nema-l14-20r",
+            "display_name": "NEMA L14-20R"
+        },
+        {
+            "value": "nema-l14-30r",
+            "display_name": "NEMA L14-30R"
+        },
+        {
+            "value": "nema-l14-50r",
+            "display_name": "NEMA L14-50R"
+        },
+        {
+            "value": "nema-l14-60r",
+            "display_name": "NEMA L14-60R"
+        },
+        {
+            "value": "nema-l15-20r",
+            "display_name": "NEMA L15-20R"
+        },
+        {
+            "value": "nema-l15-30r",
+            "display_name": "NEMA L15-30R"
+        },
+        {
+            "value": "nema-l15-50r",
+            "display_name": "NEMA L15-50R"
+        },
+        {
+            "value": "nema-l15-60r",
+            "display_name": "NEMA L15-60R"
+        },
+        {
+            "value": "nema-l21-20r",
+            "display_name": "NEMA L21-20R"
+        },
+        {
+            "value": "nema-l21-30r",
+            "display_name": "NEMA L21-30R"
+        },
+        {
+            "value": "CS6360C",
+            "display_name": "CS6360C"
+        },
+        {
+            "value": "CS6364C",
+            "display_name": "CS6364C"
+        },
+        {
+            "value": "CS8164C",
+            "display_name": "CS8164C"
+        },
+        {
+            "value": "CS8264C",
+            "display_name": "CS8264C"
+        },
+        {
+            "value": "CS8364C",
+            "display_name": "CS8364C"
+        },
+        {
+            "value": "CS8464C",
+            "display_name": "CS8464C"
+        },
+        {
+            "value": "ita-e",
+            "display_name": "ITA Type E (CEE7/5)"
+        },
+        {
+            "value": "ita-f",
+            "display_name": "ITA Type F (CEE7/3)"
+        },
+        {
+            "value": "ita-g",
+            "display_name": "ITA Type G (BS 1363)"
+        },
+        {
+            "value": "ita-h",
+            "display_name": "ITA Type H"
+        },
+        {
+            "value": "ita-i",
+            "display_name": "ITA Type I"
+        },
+        {
+            "value": "ita-j",
+            "display_name": "ITA Type J"
+        },
+        {
+            "value": "ita-k",
+            "display_name": "ITA Type K"
+        },
+        {
+            "value": "ita-l",
+            "display_name": "ITA Type L (CEI 23-50)"
+        },
+        {
+            "value": "ita-m",
+            "display_name": "ITA Type M (BS 546)"
+        },
+        {
+            "value": "ita-n",
+            "display_name": "ITA Type N"
+        },
+        {
+            "value": "ita-o",
+            "display_name": "ITA Type O"
+        },
+        {
+            "value": "hdot-cx",
+            "display_name": "HDOT Cx"
+        }
+    ],
+    "power_outlets:feed_leg": [
+        {
+            "value": "A",
+            "display_name": "A"
+        },
+        {
+            "value": "B",
+            "display_name": "B"
+        },
+        {
+            "value": "C",
+            "display_name": "C"
+        }
+    ],
+    "power_port_templates:type": [
+        {
+            "value": "iec-60320-c6",
+            "display_name": "C6"
+        },
+        {
+            "value": "iec-60320-c8",
+            "display_name": "C8"
+        },
+        {
+            "value": "iec-60320-c14",
+            "display_name": "C14"
+        },
+        {
+            "value": "iec-60320-c16",
+            "display_name": "C16"
+        },
+        {
+            "value": "iec-60320-c20",
+            "display_name": "C20"
+        },
+        {
+            "value": "iec-60309-p-n-e-4h",
+            "display_name": "P+N+E 4H"
+        },
+        {
+            "value": "iec-60309-p-n-e-6h",
+            "display_name": "P+N+E 6H"
+        },
+        {
+            "value": "iec-60309-p-n-e-9h",
+            "display_name": "P+N+E 9H"
+        },
+        {
+            "value": "iec-60309-2p-e-4h",
+            "display_name": "2P+E 4H"
+        },
+        {
+            "value": "iec-60309-2p-e-6h",
+            "display_name": "2P+E 6H"
+        },
+        {
+            "value": "iec-60309-2p-e-9h",
+            "display_name": "2P+E 9H"
+        },
+        {
+            "value": "iec-60309-3p-e-4h",
+            "display_name": "3P+E 4H"
+        },
+        {
+            "value": "iec-60309-3p-e-6h",
+            "display_name": "3P+E 6H"
+        },
+        {
+            "value": "iec-60309-3p-e-9h",
+            "display_name": "3P+E 9H"
+        },
+        {
+            "value": "iec-60309-3p-n-e-4h",
+            "display_name": "3P+N+E 4H"
+        },
+        {
+            "value": "iec-60309-3p-n-e-6h",
+            "display_name": "3P+N+E 6H"
+        },
+        {
+            "value": "iec-60309-3p-n-e-9h",
+            "display_name": "3P+N+E 9H"
+        },
+        {
+            "value": "nema-1-15p",
+            "display_name": "NEMA 1-15P"
+        },
+        {
+            "value": "nema-5-15p",
+            "display_name": "NEMA 5-15P"
+        },
+        {
+            "value": "nema-5-20p",
+            "display_name": "NEMA 5-20P"
+        },
+        {
+            "value": "nema-5-30p",
+            "display_name": "NEMA 5-30P"
+        },
+        {
+            "value": "nema-5-50p",
+            "display_name": "NEMA 5-50P"
+        },
+        {
+            "value": "nema-6-15p",
+            "display_name": "NEMA 6-15P"
+        },
+        {
+            "value": "nema-6-20p",
+            "display_name": "NEMA 6-20P"
+        },
+        {
+            "value": "nema-6-30p",
+            "display_name": "NEMA 6-30P"
+        },
+        {
+            "value": "nema-6-50p",
+            "display_name": "NEMA 6-50P"
+        },
+        {
+            "value": "nema-10-30p",
+            "display_name": "NEMA 10-30P"
+        },
+        {
+            "value": "nema-10-50p",
+            "display_name": "NEMA 10-50P"
+        },
+        {
+            "value": "nema-14-20p",
+            "display_name": "NEMA 14-20P"
+        },
+        {
+            "value": "nema-14-30p",
+            "display_name": "NEMA 14-30P"
+        },
+        {
+            "value": "nema-14-50p",
+            "display_name": "NEMA 14-50P"
+        },
+        {
+            "value": "nema-14-60p",
+            "display_name": "NEMA 14-60P"
+        },
+        {
+            "value": "nema-15-15p",
+            "display_name": "NEMA 15-15P"
+        },
+        {
+            "value": "nema-15-20p",
+            "display_name": "NEMA 15-20P"
+        },
+        {
+            "value": "nema-15-30p",
+            "display_name": "NEMA 15-30P"
+        },
+        {
+            "value": "nema-15-50p",
+            "display_name": "NEMA 15-50P"
+        },
+        {
+            "value": "nema-15-60p",
+            "display_name": "NEMA 15-60P"
+        },
+        {
+            "value": "nema-l1-15p",
+            "display_name": "NEMA L1-15P"
+        },
+        {
+            "value": "nema-l5-15p",
+            "display_name": "NEMA L5-15P"
+        },
+        {
+            "value": "nema-l5-20p",
+            "display_name": "NEMA L5-20P"
+        },
+        {
+            "value": "nema-l5-30p",
+            "display_name": "NEMA L5-30P"
+        },
+        {
+            "value": "nema-l5-50p",
+            "display_name": "NEMA L5-50P"
+        },
+        {
+            "value": "nema-l6-15p",
+            "display_name": "NEMA L6-15P"
+        },
+        {
+            "value": "nema-l6-20p",
+            "display_name": "NEMA L6-20P"
+        },
+        {
+            "value": "nema-l6-30p",
+            "display_name": "NEMA L6-30P"
+        },
+        {
+            "value": "nema-l6-50p",
+            "display_name": "NEMA L6-50P"
+        },
+        {
+            "value": "nema-l10-30p",
+            "display_name": "NEMA L10-30P"
+        },
+        {
+            "value": "nema-l14-20p",
+            "display_name": "NEMA L14-20P"
+        },
+        {
+            "value": "nema-l14-30p",
+            "display_name": "NEMA L14-30P"
+        },
+        {
+            "value": "nema-l14-50p",
+            "display_name": "NEMA L14-50P"
+        },
+        {
+            "value": "nema-l14-60p",
+            "display_name": "NEMA L14-60P"
+        },
+        {
+            "value": "nema-l15-20p",
+            "display_name": "NEMA L15-20P"
+        },
+        {
+            "value": "nema-l15-30p",
+            "display_name": "NEMA L15-30P"
+        },
+        {
+            "value": "nema-l15-50p",
+            "display_name": "NEMA L15-50P"
+        },
+        {
+            "value": "nema-l15-60p",
+            "display_name": "NEMA L15-60P"
+        },
+        {
+            "value": "nema-l21-20p",
+            "display_name": "NEMA L21-20P"
+        },
+        {
+            "value": "nema-l21-30p",
+            "display_name": "NEMA L21-30P"
+        },
+        {
+            "value": "cs6361c",
+            "display_name": "CS6361C"
+        },
+        {
+            "value": "cs6365c",
+            "display_name": "CS6365C"
+        },
+        {
+            "value": "cs8165c",
+            "display_name": "CS8165C"
+        },
+        {
+            "value": "cs8265c",
+            "display_name": "CS8265C"
+        },
+        {
+            "value": "cs8365c",
+            "display_name": "CS8365C"
+        },
+        {
+            "value": "cs8465c",
+            "display_name": "CS8465C"
+        },
+        {
+            "value": "ita-e",
+            "display_name": "ITA Type E (CEE 7/5)"
+        },
+        {
+            "value": "ita-f",
+            "display_name": "ITA Type F (CEE 7/4)"
+        },
+        {
+            "value": "ita-ef",
+            "display_name": "ITA Type E/F (CEE 7/7)"
+        },
+        {
+            "value": "ita-g",
+            "display_name": "ITA Type G (BS 1363)"
+        },
+        {
+            "value": "ita-h",
+            "display_name": "ITA Type H"
+        },
+        {
+            "value": "ita-i",
+            "display_name": "ITA Type I"
+        },
+        {
+            "value": "ita-j",
+            "display_name": "ITA Type J"
+        },
+        {
+            "value": "ita-k",
+            "display_name": "ITA Type K"
+        },
+        {
+            "value": "ita-l",
+            "display_name": "ITA Type L (CEI 23-50)"
+        },
+        {
+            "value": "ita-m",
+            "display_name": "ITA Type M (BS 546)"
+        },
+        {
+            "value": "ita-n",
+            "display_name": "ITA Type N"
+        },
+        {
+            "value": "ita-o",
+            "display_name": "ITA Type O"
+        }
+    ],
+    "power_ports:type": [
+        {
+            "value": "iec-60320-c6",
+            "display_name": "C6"
+        },
+        {
+            "value": "iec-60320-c8",
+            "display_name": "C8"
+        },
+        {
+            "value": "iec-60320-c14",
+            "display_name": "C14"
+        },
+        {
+            "value": "iec-60320-c16",
+            "display_name": "C16"
+        },
+        {
+            "value": "iec-60320-c20",
+            "display_name": "C20"
+        },
+        {
+            "value": "iec-60309-p-n-e-4h",
+            "display_name": "P+N+E 4H"
+        },
+        {
+            "value": "iec-60309-p-n-e-6h",
+            "display_name": "P+N+E 6H"
+        },
+        {
+            "value": "iec-60309-p-n-e-9h",
+            "display_name": "P+N+E 9H"
+        },
+        {
+            "value": "iec-60309-2p-e-4h",
+            "display_name": "2P+E 4H"
+        },
+        {
+            "value": "iec-60309-2p-e-6h",
+            "display_name": "2P+E 6H"
+        },
+        {
+            "value": "iec-60309-2p-e-9h",
+            "display_name": "2P+E 9H"
+        },
+        {
+            "value": "iec-60309-3p-e-4h",
+            "display_name": "3P+E 4H"
+        },
+        {
+            "value": "iec-60309-3p-e-6h",
+            "display_name": "3P+E 6H"
+        },
+        {
+            "value": "iec-60309-3p-e-9h",
+            "display_name": "3P+E 9H"
+        },
+        {
+            "value": "iec-60309-3p-n-e-4h",
+            "display_name": "3P+N+E 4H"
+        },
+        {
+            "value": "iec-60309-3p-n-e-6h",
+            "display_name": "3P+N+E 6H"
+        },
+        {
+            "value": "iec-60309-3p-n-e-9h",
+            "display_name": "3P+N+E 9H"
+        },
+        {
+            "value": "nema-1-15p",
+            "display_name": "NEMA 1-15P"
+        },
+        {
+            "value": "nema-5-15p",
+            "display_name": "NEMA 5-15P"
+        },
+        {
+            "value": "nema-5-20p",
+            "display_name": "NEMA 5-20P"
+        },
+        {
+            "value": "nema-5-30p",
+            "display_name": "NEMA 5-30P"
+        },
+        {
+            "value": "nema-5-50p",
+            "display_name": "NEMA 5-50P"
+        },
+        {
+            "value": "nema-6-15p",
+            "display_name": "NEMA 6-15P"
+        },
+        {
+            "value": "nema-6-20p",
+            "display_name": "NEMA 6-20P"
+        },
+        {
+            "value": "nema-6-30p",
+            "display_name": "NEMA 6-30P"
+        },
+        {
+            "value": "nema-6-50p",
+            "display_name": "NEMA 6-50P"
+        },
+        {
+            "value": "nema-10-30p",
+            "display_name": "NEMA 10-30P"
+        },
+        {
+            "value": "nema-10-50p",
+            "display_name": "NEMA 10-50P"
+        },
+        {
+            "value": "nema-14-20p",
+            "display_name": "NEMA 14-20P"
+        },
+        {
+            "value": "nema-14-30p",
+            "display_name": "NEMA 14-30P"
+        },
+        {
+            "value": "nema-14-50p",
+            "display_name": "NEMA 14-50P"
+        },
+        {
+            "value": "nema-14-60p",
+            "display_name": "NEMA 14-60P"
+        },
+        {
+            "value": "nema-15-15p",
+            "display_name": "NEMA 15-15P"
+        },
+        {
+            "value": "nema-15-20p",
+            "display_name": "NEMA 15-20P"
+        },
+        {
+            "value": "nema-15-30p",
+            "display_name": "NEMA 15-30P"
+        },
+        {
+            "value": "nema-15-50p",
+            "display_name": "NEMA 15-50P"
+        },
+        {
+            "value": "nema-15-60p",
+            "display_name": "NEMA 15-60P"
+        },
+        {
+            "value": "nema-l1-15p",
+            "display_name": "NEMA L1-15P"
+        },
+        {
+            "value": "nema-l5-15p",
+            "display_name": "NEMA L5-15P"
+        },
+        {
+            "value": "nema-l5-20p",
+            "display_name": "NEMA L5-20P"
+        },
+        {
+            "value": "nema-l5-30p",
+            "display_name": "NEMA L5-30P"
+        },
+        {
+            "value": "nema-l5-50p",
+            "display_name": "NEMA L5-50P"
+        },
+        {
+            "value": "nema-l6-15p",
+            "display_name": "NEMA L6-15P"
+        },
+        {
+            "value": "nema-l6-20p",
+            "display_name": "NEMA L6-20P"
+        },
+        {
+            "value": "nema-l6-30p",
+            "display_name": "NEMA L6-30P"
+        },
+        {
+            "value": "nema-l6-50p",
+            "display_name": "NEMA L6-50P"
+        },
+        {
+            "value": "nema-l10-30p",
+            "display_name": "NEMA L10-30P"
+        },
+        {
+            "value": "nema-l14-20p",
+            "display_name": "NEMA L14-20P"
+        },
+        {
+            "value": "nema-l14-30p",
+            "display_name": "NEMA L14-30P"
+        },
+        {
+            "value": "nema-l14-50p",
+            "display_name": "NEMA L14-50P"
+        },
+        {
+            "value": "nema-l14-60p",
+            "display_name": "NEMA L14-60P"
+        },
+        {
+            "value": "nema-l15-20p",
+            "display_name": "NEMA L15-20P"
+        },
+        {
+            "value": "nema-l15-30p",
+            "display_name": "NEMA L15-30P"
+        },
+        {
+            "value": "nema-l15-50p",
+            "display_name": "NEMA L15-50P"
+        },
+        {
+            "value": "nema-l15-60p",
+            "display_name": "NEMA L15-60P"
+        },
+        {
+            "value": "nema-l21-20p",
+            "display_name": "NEMA L21-20P"
+        },
+        {
+            "value": "nema-l21-30p",
+            "display_name": "NEMA L21-30P"
+        },
+        {
+            "value": "cs6361c",
+            "display_name": "CS6361C"
+        },
+        {
+            "value": "cs6365c",
+            "display_name": "CS6365C"
+        },
+        {
+            "value": "cs8165c",
+            "display_name": "CS8165C"
+        },
+        {
+            "value": "cs8265c",
+            "display_name": "CS8265C"
+        },
+        {
+            "value": "cs8365c",
+            "display_name": "CS8365C"
+        },
+        {
+            "value": "cs8465c",
+            "display_name": "CS8465C"
+        },
+        {
+            "value": "ita-e",
+            "display_name": "ITA Type E (CEE 7/5)"
+        },
+        {
+            "value": "ita-f",
+            "display_name": "ITA Type F (CEE 7/4)"
+        },
+        {
+            "value": "ita-ef",
+            "display_name": "ITA Type E/F (CEE 7/7)"
+        },
+        {
+            "value": "ita-g",
+            "display_name": "ITA Type G (BS 1363)"
+        },
+        {
+            "value": "ita-h",
+            "display_name": "ITA Type H"
+        },
+        {
+            "value": "ita-i",
+            "display_name": "ITA Type I"
+        },
+        {
+            "value": "ita-j",
+            "display_name": "ITA Type J"
+        },
+        {
+            "value": "ita-k",
+            "display_name": "ITA Type K"
+        },
+        {
+            "value": "ita-l",
+            "display_name": "ITA Type L (CEI 23-50)"
+        },
+        {
+            "value": "ita-m",
+            "display_name": "ITA Type M (BS 546)"
+        },
+        {
+            "value": "ita-n",
+            "display_name": "ITA Type N"
+        },
+        {
+            "value": "ita-o",
+            "display_name": "ITA Type O"
+        }
+    ],
+    "racks:status": [
+        {
+            "value": "reserved",
+            "display_name": "Reserved"
+        },
+        {
+            "value": "available",
+            "display_name": "Available"
+        },
+        {
+            "value": "planned",
+            "display_name": "Planned"
+        },
+        {
+            "value": "active",
+            "display_name": "Active"
+        },
+        {
+            "value": "deprecated",
+            "display_name": "Deprecated"
+        }
+    ],
+    "racks:type": [
+        {
+            "value": "2-post-frame",
+            "display_name": "2-post frame"
+        },
+        {
+            "value": "4-post-frame",
+            "display_name": "4-post frame"
+        },
+        {
+            "value": "4-post-cabinet",
+            "display_name": "4-post cabinet"
+        },
+        {
+            "value": "wall-frame",
+            "display_name": "Wall-mounted frame"
+        },
+        {
+            "value": "wall-cabinet",
+            "display_name": "Wall-mounted cabinet"
+        }
+    ],
+    "racks:width": [
+        {
+            "value": 10,
+            "display_name": "10 inches"
+        },
+        {
+            "value": 19,
+            "display_name": "19 inches"
+        },
+        {
+            "value": 21,
+            "display_name": "21 inches"
+        },
+        {
+            "value": 23,
+            "display_name": "23 inches"
+        }
+    ],
+    "racks:outer_unit": [
+        {
+            "value": "mm",
+            "display_name": "Millimeters"
+        },
+        {
+            "value": "in",
+            "display_name": "Inches"
+        }
+    ],
+    "rear_port_templates:type": [
+        {
+            "value": "8p8c",
+            "display_name": "8P8C"
+        },
+        {
+            "value": "8p6c",
+            "display_name": "8P6C"
+        },
+        {
+            "value": "8p4c",
+            "display_name": "8P4C"
+        },
+        {
+            "value": "8p2c",
+            "display_name": "8P2C"
+        },
+        {
+            "value": "110-punch",
+            "display_name": "110 Punch"
+        },
+        {
+            "value": "bnc",
+            "display_name": "BNC"
+        },
+        {
+            "value": "mrj21",
+            "display_name": "MRJ21"
+        },
+        {
+            "value": "fc",
+            "display_name": "FC"
+        },
+        {
+            "value": "lc",
+            "display_name": "LC"
+        },
+        {
+            "value": "lc-apc",
+            "display_name": "LC/APC"
+        },
+        {
+            "value": "lsh",
+            "display_name": "LSH"
+        },
+        {
+            "value": "lsh-apc",
+            "display_name": "LSH/APC"
+        },
+        {
+            "value": "mpo",
+            "display_name": "MPO"
+        },
+        {
+            "value": "mtrj",
+            "display_name": "MTRJ"
+        },
+        {
+            "value": "sc",
+            "display_name": "SC"
+        },
+        {
+            "value": "sc-apc",
+            "display_name": "SC/APC"
+        },
+        {
+            "value": "st",
+            "display_name": "ST"
+        }
+    ],
+    "rear_ports:type": [
+        {
+            "value": "8p8c",
+            "display_name": "8P8C"
+        },
+        {
+            "value": "8p6c",
+            "display_name": "8P6C"
+        },
+        {
+            "value": "8p4c",
+            "display_name": "8P4C"
+        },
+        {
+            "value": "8p2c",
+            "display_name": "8P2C"
+        },
+        {
+            "value": "110-punch",
+            "display_name": "110 Punch"
+        },
+        {
+            "value": "bnc",
+            "display_name": "BNC"
+        },
+        {
+            "value": "mrj21",
+            "display_name": "MRJ21"
+        },
+        {
+            "value": "fc",
+            "display_name": "FC"
+        },
+        {
+            "value": "lc",
+            "display_name": "LC"
+        },
+        {
+            "value": "lc-apc",
+            "display_name": "LC/APC"
+        },
+        {
+            "value": "lsh",
+            "display_name": "LSH"
+        },
+        {
+            "value": "lsh-apc",
+            "display_name": "LSH/APC"
+        },
+        {
+            "value": "mpo",
+            "display_name": "MPO"
+        },
+        {
+            "value": "mtrj",
+            "display_name": "MTRJ"
+        },
+        {
+            "value": "sc",
+            "display_name": "SC"
+        },
+        {
+            "value": "sc-apc",
+            "display_name": "SC/APC"
+        },
+        {
+            "value": "st",
+            "display_name": "ST"
+        }
+    ],
+    "sites:status": [
+        {
+            "value": "planned",
+            "display_name": "Planned"
+        },
+        {
+            "value": "staging",
+            "display_name": "Staging"
+        },
+        {
+            "value": "active",
+            "display_name": "Active"
+        },
+        {
+            "value": "decommissioning",
+            "display_name": "Decommissioning"
+        },
+        {
+            "value": "retired",
+            "display_name": "Retired"
+        }
+    ]
+}
