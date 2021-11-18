@@ -15,7 +15,7 @@ class CiscoParser(_AbstractVendorParser):
         if_index_re = re.search(r"\d.*", interface)
         if_index_re = if_index_re.group() if if_index_re else ""
 
-        if interface.lower().startswith("eth"):
+        if interface.lower().startswith("eth") or interface.lower().startswith("twe"):
             prefix = interface[:3]
         else:
             prefix = interface[:2]
