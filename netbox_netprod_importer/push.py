@@ -25,6 +25,8 @@ from ipaddress import ip_network, ip_interface
 
 logger = logging.getLogger("netbox_importer")
 
+import json
+CHOICES_FILENAME = "choices.json"
 
 class _NetboxPusher(ABC):
 
@@ -44,23 +46,53 @@ class _NetboxPusher(ABC):
                 self.netbox_api, app_name="ipam", model="vlans"
             )
         }
+
+
+
         self._choices_cache = {}
 
     @abstractmethod
     def push(self):
         pass
 
-    def search_value_in_choices(self, mapper_name, id, label):
-        if mapper_name not in self._choices_cache:
-            mapper = self._mappers[mapper_name]
-            self._choices_cache[mapper_name] = mapper.options()
+    #############################################################
+    # Original method
 
-        for choice in self._choices_cache[mapper_name]["actions"]["POST"][id]["choices"]:
+    #def search_value_in_choices(self, mapper_name, id, label):
+    #    if mapper_name not in self._choices_cache:
+    #        try:
+    #            mapper = self._mappers[mapper_name]
+    #            self._choices_cache[mapper_name] = next(mapper.get())
+    #        except StopIteration:
+    #            pass
+
+    #    for choice in self._choices_cache[mapper_name][id]:
+    #        if choice["label"] == label:
+    #            return choice["value"]
+
+    #    raise KeyError("Label {} not in choices".format(label))
+
+
+    # Edited method
+    #                           "dcim_choices", "interface:type", if_prop["type"]
+    def search_value_in_choices(self, mapper_name, id, label):
+        # TODO Cache choices to memory
+
+        with open(CHOICES_FILENAME) as json_file:
+            data = json.load(json_file)
+            #print(data)
+
+        mapper = {}
+        mapper[mapper_name] = data
+
+        for choice in mapper[mapper_name][id]:
             if choice["display_name"] == label:
                 return choice["value"]
 
+        print("Label {} not in choices".format(label))
         raise KeyError("Label {} not in choices".format(label))
 
+    #############################################################
 
 class NetboxDevicePropsPusher(_NetboxPusher):
     _device = None
@@ -124,7 +156,10 @@ class NetboxDevicePropsPusher(_NetboxPusher):
 
             if_prop = if_prop.copy()
             if_prop["type"] = self.search_value_in_choices(
-                "interfaces", "type", if_prop["type"]
+                "dcim_choices", "interfaces:type", if_prop["type"]
+            )
+            interface_query = self._mappers["interfaces"].get(
+                device_id=self._device, name=if_name
             )
 
             if if_name in device_interfaces_lookup:
@@ -137,7 +172,7 @@ class NetboxDevicePropsPusher(_NetboxPusher):
                 except HTTPError as e:
                     raise NetIfPushingError(if_name, e)
             interfaces[if_name] = interface
-            
+
             if if_prop.get("lag"):
                 interfaces_lag[if_name] = if_prop.pop("lag")
 
@@ -252,7 +287,8 @@ class NetboxDevicePropsPusher(_NetboxPusher):
 
     def _handle_interface_mode(self, netbox_if, mode):
         netbox_mode = self.search_value_in_choices(
-            "interfaces", "mode", mode
+            "dcim_choices", "interfaces:mode",
+            mode
         )
 
         changed = False
