@@ -34,8 +34,8 @@ setup(
     keywords="netbox_netprod_importer",
     name="netbox_netprod_importer",
     packages=find_packages(include=["netbox_netprod_importer", "netbox_netprod_importer.*"]),
-    package_data={
-        "netbox_netprod_importer": ["templates/**"]
+   package_data={
+        "netbox_netprod_importer": ["choices.json"]
     },
     setup_requires=setup_requirements,
     test_suite="tests",
