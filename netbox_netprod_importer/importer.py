@@ -155,6 +155,7 @@ class DeviceImporter(ContextDecorator):
                 mode = {
                     "access": "Access",
                     "trunk": "Tagged",
+                    "trunk-all": "Tagged (All)",
                     "static access": "Access",
                     None: None
                 }[self.specific_parser.get_interface_mode(ifname)]
@@ -192,6 +193,9 @@ class DeviceImporter(ContextDecorator):
                 except NotImplementedError:
                     interfaces[ifname]["untagged_vlan"] = None
 
+            if mode == "Tagged (All)":
+                continue
+
             try:
                 vlans = self.specific_parser.get_interface_vlans(ifname)
             except NotImplementedError:
@@ -209,6 +213,10 @@ class DeviceImporter(ContextDecorator):
                 if native in data["tagged_vlans"]:
                     interfaces[ifname]["untagged_vlan"] = native
                     interfaces[ifname]["tagged_vlans"].remove(str(native))
+
+            elif data["mode"] == "Tagged (All)":
+                native = self.specific_parser.get_interface_native_vlan(ifname)
+                interfaces[ifname]["untagged_vlan"] = native
 
         for trunk in trunks:
             if trunk in interfaces:

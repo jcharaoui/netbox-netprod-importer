@@ -143,12 +143,18 @@ class IOSParser(CiscoParser):
     def get_interface_mode(self, interface):
         from pynxos.errors import CLIError
         try:
-            return self._get_interfaces_mode()[
+            oper_mode = self._get_interfaces_mode()[
                 self.get_abrev_if(interface)].get("oper_mode")
         except (KeyError, CLIError):
             logger.debug("Switch %s, show interface switchport cmd error",
                          self.device.hostname)
-        return None
+            return None
+
+        if oper_mode == "trunk" and "trunking_vlans" in self._get_interfaces_mode()[self.get_abrev_if(interface)]:
+            trunking_vlans = self._get_interfaces_mode()[self.get_abrev_if(interface)].get("trunking_vlans")
+            if trunking_vlans == "ALL":
+                return "trunk-all"
+        return oper_mode
 
     def get_interface_access_vlan(self, interface):
         from pynxos.errors import CLIError
@@ -193,7 +199,8 @@ class IOSParser(CiscoParser):
                     r"^Name:\s+(?P<interface>\S+)",
                     r"^Administrative Mode:\s+(?P<oper_mode>static access|trunk|access)",
                     r"^Access Mode VLAN:\s+(?P<access_vlan>\d+)",
-                    r"^Trunking Native Mode VLAN:\s+(?P<native_vlan>\d+)"
+                    r"^Trunking Native Mode VLAN:\s+(?P<native_vlan>\d+)",
+                    r"^Trunking VLANs Enabled:\s+(?P<trunking_vlans>ALL|[0-9,-]+)"
                 ]
                 inf_mode = {}
                 for g in grp:
